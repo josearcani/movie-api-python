@@ -26,5 +26,6 @@ jobs:
         with:
           name: movie-api
           path: |
-            config
-            main.py
+            ./config/
+            models/
+            ./main.py
