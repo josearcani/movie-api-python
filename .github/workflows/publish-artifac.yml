@@ -26,6 +26,7 @@ jobs:
         with:
           name: movie-api
           path: |
+            cd downloads
             ./config/
             models/
             ./main.py
