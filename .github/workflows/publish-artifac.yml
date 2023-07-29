@@ -15,10 +15,10 @@ jobs:
         run: mkdir downloads
 
       - name: Step 2 - Add artifacts to publish to the temp folder
-      - shell: bash
         run: |
           echo $PATH
           mv ./config downloads
+        shell: bash
 
       - name: Step 3 - Use the upload Artifact github action
         uses: actions/upload-artifact@v3
