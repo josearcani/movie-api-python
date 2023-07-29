@@ -15,6 +15,7 @@ jobs:
         run: mkdir downloads
 
       - name: Step 2 - Add artifacts to publish to the temp folder
+      - shell: bash
         run: |
           echo $PATH
           mv ./config downloads
